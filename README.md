@@ -2,6 +2,8 @@
 
 [![NPM version](https://img.shields.io/npm/v/acorn-optional-catch-binding.svg)](https://www.npmjs.org/package/acorn-optional-catch-binding)
 
+**NOTE**: Optional catch bindings are now supported by the main acorn package, and this plugin is deprecated.
+
 This is a plugin for [Acorn](http://marijnhaverbeke.nl/acorn/) - a tiny, fast JavaScript parser, written completely in JavaScript.
 
 It implements support for optional catch bindings as defined in the stage 3 proposal [Optional catch binding](https://github.com/tc39/proposal-optional-catch-binding). The emitted AST follows [ESTree](https://github.com/estree/estree/blob/master/experimental/optional-catch-binding.md).
